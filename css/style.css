@@ -1,0 +1,208 @@
+:root {
+    --green: #3c2466; /*#2e2e2e;*/
+    --gold: #F4B000;
+}
+
+head{
+  background-color: var(--green);
+}
+
+body{
+  font-family: 'Lato', serif;
+  color: #fff;
+  margin:0;
+  background-color: var(--green);
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+#logo{
+  width: 25vw;
+  margin-top: 12vh;
+}
+
+.twitter-wrapper{
+  width: 35vw;
+  margin: 0 auto;
+  padding-bottom: 10vh;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.links-wrapper{
+  padding-top: 6vh;
+  width: 100%;
+  text-align: center;
+}
+
+a{
+  color: #fff;
+}
+
+a:hover{
+  color: var(--gold);
+}
+
+.link a{
+  font-size: 14;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link a:hover{
+  text-decoration: underline;
+}
+
+.hours {
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 1.25em;
+  padding-bottom: 20px;
+}
+
+.map-wrapper{
+  width:100%;
+  margin-top: 10vh;
+  padding-bottom: 6vh;
+}
+
+#map{
+  width: 42vw;
+}
+
+@media only screen
+and (min-device-width : 1900px) {
+  #map{
+    width: 32vw;
+  }
+  .map-wrapper{
+    margin-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  #logo{
+    width: 21vw;
+    margin-top: 10vh;
+  }
+  .twitter-wrapper{
+    width: 31vw;
+  }
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1450px)  { /* iPad */
+  #map{
+    width: 52vw;
+  }
+  .map-wrapper{
+    margin-top: 10vh;
+    padding-bottom: 6vh;
+  }
+  #logo{
+    width: 30vw;
+    margin-top: 15vh;
+  }
+  .twitter-wrapper{
+    width: 40vw;
+  }
+  .hours {
+    font-size: 1.35em;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* iPad */
+  #map{
+    width: 72vw;
+  }
+  .map-wrapper{
+    margin-top: 8vh;
+    padding-bottom: 3vh;
+  }
+  #logo{
+    width: 40vw;
+    margin-top: 15vh;
+  }
+  .twitter-wrapper{
+    width: 50vw;
+  }
+  .hours {
+    font-size: 1.35em;
+  }
+}
+
+@media only screen
+and (min-device-width : 568px)
+and (max-device-width : 768px) { /* bigger phone */
+  #map{
+    width: 82vw;
+  }
+  .map-wrapper{
+    margin-top: 7vh;
+    padding-bottom: 3vh;
+  }
+  #logo{
+    width: 60vw;
+    margin-top: 15vh;
+  }
+  .twitter-wrapper{
+    width: 70vw;
+  }
+  .hours {
+    font-size: 1.45em;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* small iPhone */
+  #map{
+    width: 88vw;
+  }
+  .map-wrapper{
+    margin-top: 7vh;
+    padding-bottom: 4vh;
+  }
+  #logo{
+    width: 80vw;
+    margin-top: 15vh;
+  }
+  .twitter-wrapper{
+    width: 90vw;
+  }
+  .hours {
+    font-size: 1.45em;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 420px) { /* tiny screen */
+  #map{
+    width: 92vw;
+  }
+  .map-wrapper{
+    margin-top: 7vh;
+    padding-bottom: 4vh;
+  }
+  #logo{
+    width: 85vw;
+    margin-top: 15vh;
+  }
+  .twitter-wrapper{
+    width: 95vw;
+  }
+  .hours {
+    font-size: 1.45em;
+  }
+}
