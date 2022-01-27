@@ -15,12 +15,13 @@ body{
 }
 
 img{
-  display: block;
-  margin: 0 auto;
+  width: 100%;
 }
 
 #logo{
   width: 25vw;
+  display: block;
+  margin: 0 auto;
   margin-top: 12vh;
 }
 
@@ -37,6 +38,7 @@ img{
 
 .links-wrapper{
   padding-top: 6vh;
+  padding-bottom: 7vh;
   width: 100%;
   text-align: center;
 }
@@ -50,15 +52,17 @@ a:hover{
 }
 
 .link a{
-  font-size: 14;
+  font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 35px;
   color: #fff;
   text-decoration: none;
 }
 
 .link a:hover{
   text-decoration: underline;
+  color: var(--gold);
 }
 
 .hours {
