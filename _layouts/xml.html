@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Yup and Coming</title>
-        <link>https://yupandcoming.com/</link>
+        <title>The Andy Pod</title>
+        <link>https://theandypod.com/</link>
         <language>en-us</language>
-        <copyright>&#169; 2021 Andrew Trattner</copyright>
+        <copyright>&#169; 2022 Andy Trattner</copyright>
         <itunes:author>Andy Trattner</itunes:author>
         <description>
-          Want to launch a career to be proud of? Andy Trattner and James Bollinger talk with exceptional young professionals about their unique life stories and inspiring projects, exploring how to thoughtfully navigate the transition from school to work.
+          Conversations with Andy Trattner and friends.
         </description>
         <itunes:owner>
-          <itunes:name>Andrew Trattner</itunes:name>
-          <itunes:email>093alt@gmail.com</itunes:email>
+          <itunes:name>Andy Trattner</itunes:name>
+          <itunes:email>tratt@hey.com</itunes:email>
         </itunes:owner>
-        <email>093alt@gmail.com</email>
-        <itunes:image href="https://yupandcoming.com/img/itunes-cover.jpg"/>
-        <googleplay:owner>093alt@gmail.com</googleplay:owner>
+        <email>tratt@hey.com</email>
+        <itunes:image href="https://theandypod.com/img/podcover-big.jpeg"/>
+        <googleplay:owner>tratt@hey.com</googleplay:owner>
         <googleplay:author>Andy Trattner</googleplay:author>
-        <googleplay:image href="https://yupandcoming.com/img/itunes-cover.jpg"/>
+        <googleplay:image href="https://theandypod.com/img/podcover-big.jpeg"/>
         <itunes:category text="Business">
           <itunes:category text="Careers" />
         </itunes:category>
-        <itunes:explicit>true</itunes:explicit>
+        <itunes:explicit>yes</itunes:explicit>
         {% for post in site.posts %}
         <item>
           <title>{{ post.title }}</title>
           <itunes:title>{{ post.title }}</itunes:title>
           <description>{{ post.description }}</description>
+          <content:encoded>{{ post.content }}</content:encoded>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <enclosure url="{{ post.audio }}"
                      type="audio/mpeg" length="{{ post.length }}"/>
