@@ -24,7 +24,7 @@
         <itunes:explicit>yes</itunes:explicit>
         {% for post in site.posts %}
         <item>
-          <title>{{ post.title }}</title>
+          <title>E{{ post.ep }}: {{ post.title }}</title>
           <itunes:title>{{ post.title }}</itunes:title>
           <description>{{ post.description }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>

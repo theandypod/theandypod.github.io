@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <head>
     <!-- Meta -->
@@ -56,6 +58,23 @@
         data-link-color="#F4B000"
         data-chrome="noheader nofooter noborders"
         >Tweets by @theandypod</a>
+    </div>
+
+    <div class="episode-wrapper">
+      {% for post in site.posts %}
+      <details class="episode-tile">
+        <summary>
+          <span class="ep-title">{{ post.title }}</span><div class="ep-date">Ep. {{post.ep}} <span class="date-spacer"> - </span> {{ post.date | date: "%m / %d / %y" }}</div>
+        </summary>
+        <div class="audio-wrapper">
+          <audio controls="controls">
+          	<source src="{{ post.audio }}" type="audio/mpeg">
+              Your browser does not support the audio element :(
+          </audio>
+        </div>
+        {{ post.description }}
+      </details>
+      {% endfor %}
     </div>
 
 <!--
