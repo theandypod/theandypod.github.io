@@ -27,7 +27,6 @@
           <title>{{ post.title }}</title>
           <itunes:title>{{ post.title }}</itunes:title>
           <description>{{ post.description }}</description>
-          <content:encoded>{{ post.content }}</content:encoded>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <enclosure url="{{ post.audio }}"
                      type="audio/mpeg" length="{{ post.length }}"/>
