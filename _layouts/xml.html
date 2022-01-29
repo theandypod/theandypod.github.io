@@ -14,7 +14,7 @@
           <itunes:email>tratt@hey.com</itunes:email>
         </itunes:owner>
         <email>tratt@hey.com</email>
-        <itunes:image href="https://theandypod.com/img/podcover-big.jpeg"/>
+        <itunes:image href="https://theandypod.com/img/podcover.jpeg"/>
         <googleplay:owner>tratt@hey.com</googleplay:owner>
         <googleplay:author>Andy Trattner</googleplay:author>
         <googleplay:image href="https://theandypod.com/img/podcover.jpeg"/>
@@ -33,6 +33,7 @@
                      type="audio/mpeg" length="{{ post.length }}"/>
           <itunes:duration>{{ post.duration }}</itunes:duration>
           <guid>{{ site.url }}{{ post.url }}</guid>
+          <link>https://theandypod.com/</link>
         </item>
         {% endfor %}
     </channel>
