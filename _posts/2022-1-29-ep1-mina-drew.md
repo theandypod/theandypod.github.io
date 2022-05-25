@@ -4,7 +4,7 @@ title: 'Mina Fahmi and Drew Bent'
 summary: Weekly magazines, The Trailblazer List, and podcast gossip.
 date: 2022-1-29
 recorded: 2022-1-23
-audio: https://ia801406.us.archive.org/15/items/ep1-mina-drew/ep1-mina-drew.mp3
+audio: https://ia902202.us.archive.org/26/items/ep1-mina-drew/ep1-mina-drew.mp3
 length: 2535.4466439909297
 duration: '42:15'
 ep: '1'

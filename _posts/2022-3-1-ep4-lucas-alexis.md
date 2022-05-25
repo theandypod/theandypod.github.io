@@ -4,7 +4,7 @@ title: 'Alexis Sirkin and Lucas Kasle'
 summary: Prepping for a big American road trip.
 date: 2022-3-1
 recorded: 2022-2-15
-audio: https://ia601406.us.archive.org/19/items/ep4-lucas-alexis-v1/ep4-lucas-alexis-v1.mp3
+audio: https://ia902201.us.archive.org/26/items/ep4-lucas-alexis-v1/ep4-lucas-alexis-v1.mp3
 length: 2853.22975
 duration: '47:33'
 ep: '4'
