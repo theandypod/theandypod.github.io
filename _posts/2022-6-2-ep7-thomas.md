@@ -2,11 +2,11 @@
 layout: episode
 title: 'Thomas McGannon'
 summary: Religiously optimistic.
-date: 2022-6-2
+date: 2022-6-3
 recorded: 2022-4-26
-audio: https://ia902503.us.archive.org/31/items/thomas-v2_202206/thomas-v2.mp3
-length: 3017.5919375
-duration: '50:17'
+audio: https://ia902509.us.archive.org/0/items/thomas-v3/thomas-v3.mp3
+length: 3014.7038333333335
+duration: '50:14'
 ep: '7'
 ---
 
